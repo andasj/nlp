@@ -118,8 +118,6 @@ for id, inicio, fim in matches:
     print(id)
     print(documento6[inicio:fim])
 
-# displacy.render(documento, style="ent")
-
 # Gerar a visualização de dependências
 html = displacy.render(documento, style="dep", jupyter=False)
 html1 = displacy.render(documento,style="dep", jupyter=False,
