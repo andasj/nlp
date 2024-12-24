@@ -1,5 +1,5 @@
 import spacy
-from typing import Match
+# from typing import Match
 from spacy.matcher import Matcher
 from spacy import displacy
 nlp = spacy.load('pt_core_news_lg')
